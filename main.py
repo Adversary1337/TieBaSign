@@ -225,6 +225,7 @@ def main():
             client_sign(i, tbs, j["id"], j["name"])
         logger.info("完成第" + str(n) + "个用户签到")
   #  不要发邮件
+  # No mail
     logger.info("所有用户签到结束")
 
 
